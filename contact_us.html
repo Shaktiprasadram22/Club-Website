@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Contact Us</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: #77776e;
+        font-family: Verdana, sans-serif;
+        font-size: 15px;
+      }
+      p {
+        font-size: x-large;
+      }
+      .right_side > span {
+        font-size: 55px;
+      }
+      /* ========= code for header section ======== */
+      .header {
+        background-color: #0d0d0d;
+        height: 100px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+      .header img {
+        border: 5px solid yellow;
+        border-radius: 30px;
+        width: 70px;
+        margin: 10px 0 0 10px;
+      }
+      .header ul {
+        float: right;
+        overflow: hidden;
+        padding: 25px;
+      }
+      .header ul li {
+        display: inline;
+        padding: 30px;
+      }
+      .header ul a {
+        text-decoration: none;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: #f1f1f1;
+      }
+      .header li:hover {
+        background-color: #0ee539;
+        border-radius: 25px;
+      }
+      .wallpaper {
+        height: 400px;
+      }
+      .wallpaper img {
+        width: 100%;
+        height: 400px;
+      }
+      /* ========= code for contact_us section ========= */
+      .contact_us {
+        background-color: rgb(53, 169, 156);
+        border: 1px solid black;
+        width: 40%;
+        padding-left: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      label {
+        font-size: x-large;
+      }
+      input {
+        padding: 15px;
+        width: 80%;
+        border-radius: 20px;
+        color: black;
+        font-size: large;
+        background-color: white;
+      }
+      textarea {
+        padding: 15px;
+        width: 80%;
+        border-radius: 20px;
+        font-size: large;
+      }
+      button {
+        width: 80%;
+        height: 30px;
+      }
+      .right_side {
+        position: absolute;
+        padding-top: 50px;
+        right: 10%;
+        text-align: justify;
+      }
+      .right_side > span {
+        font-size: 30px;
+      }
+      .page_header {
+        text-align: center;
+        background-color: #77776e;
+      }
+      .page_header h1 {
+        margin: 0;
+      }
+      /* ======= code for footer section ======== */
+      .footer {
+        border-top: 10px solid red;
+        height: 300px;
+        text-align: center;
+        background-image: url("footer_bg.jpeg");
+        background-color: #757c81;
+      }
+      .footer > ul > li > a {
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+        text-decoration: none;
+      }
+      .footer > ul > li {
+        list-style-type: none;
+        padding: 23px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page_header">
+      <marquee behavior="alternate" direction="right" scrollamount="8">
+        <h1 style="color: rgb(0, 0, 0)">CONTACT US</h1></marquee>
+      >
+    </div>
+    <div class="header">
+      <a href="About_Club.html" target="_self"
+        ><img
+          src="photo\png-transparent-apex-college-pvt-ltd-logo-education-sports-association-sports-club-text-sport-logo.png"
+          alt="logo"
+      /></a>
+      <ul>
+        <li><a href="About_Sport.html" target="_self">About sports</a></li>
+        <li>
+          <a href="subscription_page.html" target="_self">Subscription</a>
+        </li>
+        <li>
+          <a href="contact_us.html" target="_self">Contact us</a>
+        </li>
+        <li><a href="About_Club.html" target="_self">Club</a></li>
+      </ul>
+    </div>
+    <div class="right_side">
+      <h1>REACH US</h1>
+      <br /><br />
+      <span class="fa-solid fa-envelope" style="font-size: 55px"></span><br />
+      <p>shaktiram.lucifer@gmail.com</p>
+      <br /><br />
+      <span class="fa-solid fa-phone" style="font-size: 55px"></span>
+      <p>8917583070</p>
+      <br /><br />
+      <span class="fa-solid fa-location-dot" style="font-size: 55px"></span>
+      <p>
+        Jalandhar - Delhi, Grand <br />
+        Trunk Rd, Phagwara, Punjab 144001<br />
+        Lovely Professional University.
+      </p>
+    </div>
+    <div class="contact_us">
+      <h1>SEND YOUR FEEDBACK</h1>
+      <form action="contact_us.html">
+        <label for="fname">FIRST NAME*</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          required="required"
+          placeholder="Enter first name"
+        /><br /><br />
+        <label for="lname">LAST NAME*</label><br />
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          required="required"
+          placeholder="Enter last name"
+        /><br /><br />
+        <label for="email">EMAIL*</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required="required"
+          placeholder="Enter your email"
+        /><br /><br />
+        <label for="message">MESSAGE</label><br />
+        <textarea id="message" name="message"></textarea><br /><br />
+        <label for="additional details">ADRESS</label><br />
+        <textarea
+          id="additional details"
+          name="additional details"
+          placeholder="Enter your adress"
+        ></textarea
+        ><br /><br />
+        <input type="reset" /><br /><br />
+        <input type="submit" placeholder="Send" />
+      </form>
+    </div>
+    <div class="footer">
+      <ul class="footer_box">
+        <li><a href="About_Sport.html" target="_self">About sports</a></li>
+        <li>
+          <a href="subscription_page.html" target="_self">Subscription</a>
+        </li>
+        <li>
+          <a href="contact_us.html" target="_self">Contact us</a>
+        </li>
+        <li><a href="About_Club.html" target="_self">Club</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

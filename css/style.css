@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  background-color: #77776e;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+}
+body h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+/* =========----- css code of home_page -----======== */
+.header {
+  background-color: #0d0d0d;
+  height: 100px;
+}
+.header img {
+  border: 5px solid yellow;
+  border-radius: 30px;
+  width: 70px;
+  margin: 10px 0 0 10px;
+}
+.header ul {
+  float: right;
+  overflow: hidden;
+  padding: 25px;
+}
+.header ul li {
+  display: inline;
+  padding: 30px;
+}
+.header ul a {
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+.header li:hover {
+  background-color: #0ee539;
+  border-radius: 25px;
+}
+.wallpaper {
+  height: 400px;
+}
+.wallpaper img {
+  width: 100%;
+  height: 400px;
+}
+/*-----=========  css for left_menu  ========-----*/
+.left_menu {
+  margin-top: 80px;
+  height: auto;
+  width: 15%;
+  display: inline-block;
+  background-color: #e7e9eb;
+  text-align: center;
+}
+.left_menu a {
+  color: #1d1c1c;
+  font-weight: bold;
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-decoration: none;
+  display: block;
+  padding: 30px 10px 30px 16px;
+  letter-spacing: 1px;
+  font-size: large;
+  text-align: center;
+  color: red;
+}
+.left_menu a:hover {
+  background-color: #d8adab;
+}
+/* ===================== code for main content ============================ */
+.about_club {
+  margin-top: 80px;
+  float: right;
+  height: auto;
+  width: 85%;
+}
+.about_club p {
+  text-align: justify;
+  padding-left: 40px;
+  padding-right: 220px;
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  color: white;
+  line-height: 35px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+/* ============================== code for gallery section =========================== */
+.gallery {
+  margin: 45px 0 100px 0;
+  overflow: hidden;
+}
+.gallery .gallery_photo {
+  width: 31.5%;
+  float: right;
+  padding-top: 50px;
+}
+.gallery .gallery_photo img {
+  width: 350px;
+}
+/* ============================ code for contact_us page =========================== */
+.contact_us-1 {
+  margin: 100px;
+}
+.contact_us {
+  background-color: #136a8a;
+  border: 1px solid black;
+  border-radius: 50px 0 50px 0;
+  width: 40%;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.right_side p {
+  font-size: x-large;
+}
+input {
+  padding: 15px;
+  width: 80%;
+  border-radius: 20px;
+  font-size: large;
+  background-color: #77776e;
+}
+textarea {
+  padding: 15px;
+  width: 80%;
+  border-radius: 20px;
+  font-size: large;
+  background-color: #77776e;
+}
+label {
+  font-size: x-large;
+}
+.right_side {
+  position: absolute;
+  padding-top: 50px;
+  right: 10%;
+  text-align: justify;
+}
+.right_side > span {
+  font-size: 55px;
+}
+.page_header {
+  text-align: center;
+  color: red;
+  background-color: aqua;
+}
+/* =============================code for footer section============================ */
+.footer {
+  border-top: 10px solid rgb(157, 255, 0);
+  height: 300px;
+  background-color: #282a35;
+  text-align: center;
+}
+.footer > ul > li > a {
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  text-decoration: none;
+}
+.footer > ul > li {
+  list-style-type: none;
+  padding: 23px;
+}
